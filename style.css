@@ -44,11 +44,21 @@ body{
     letter-spacing: -3px;
     line-height: 130%;
     margin-bottom: 1px;
+    transition: transform .2s;
+}
+
+.introductory-part h1:hover{
+    transform: scale(1.2);
 }
 
 .introductory-part p{
     font-size: 14px;
     margin-bottom: 36px;
+    transition: transform .2s;
+}
+
+.introductory-part p:hover{
+    transform: scale(1.1);
 }
 
 .introductory-part a{
