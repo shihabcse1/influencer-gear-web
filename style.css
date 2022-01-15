@@ -15,23 +15,48 @@ body{
 .first-section{
     display: grid;
     grid-template-columns: 1.7fr 1.3fr;
-    /* grid-row-gap: 120px; */
+    justify-content: center;
 }
 
 .introductory-part{
     padding-left: 120px;
-    padding-right: 130px;
+    padding-right: 120px;
+    margin: auto;
+}
+
+
+.introductory-part h1{
+    font-size: 45px;
+    letter-spacing: -3px;
+    line-height: 130%;
+    margin-bottom: 1px;
+}
+
+.introductory-part p{
+    font-size: 14px;
+    margin-bottom: 36px;
 }
 
 .introductory-part a{
     text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+
+.fa-arrow-right{
+    padding-left: 5px;
 }
 
 .recent-product-img-part{
-    padding-right: 120px;
+    margin: auto;
 }
 
 .recent-product-img-part img{
-    /* background-image: url(./images/Circle\ design.svg); */
+    background-image: url(./images/Circle\ design.svg);
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
     width: 80%;
 }
