@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* -----------------------
@@ -64,8 +65,19 @@ body{
     Popular Collection Section 
 -------------------------------*/
 
-.products{
+.popular-collection h2{
+    text-align: center;
+}
 
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.product-item{
+    justify-items: space-evenly;
 }
 
 .product{
@@ -112,3 +124,26 @@ body{
     font-weight: bold;
     padding-left: 10px;
 }
+
+/*-----------------
+    Footer Styles 
+ ---------------*/
+
+ footer{
+    margin-top: 30px;
+    background-color: #0A0826;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ footer p{
+     font-size: 14px;
+ }
+
+ .fa-facebook, .fa-snapchat, .fa-pinterest{
+    font-size: 30px;
+    padding: 5px;
+ }
