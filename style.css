@@ -125,6 +125,21 @@ body{
     padding-left: 10px;
 }
 
+.see-more-product{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 5%;
+    padding-bottom: 30px;
+}
+
+.popular-collection a{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    font-weight: bold;
+    color: #E02C6D;
+}
+
 /*-----------------
     Footer Styles 
  ---------------*/
