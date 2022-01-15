@@ -7,7 +7,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* -----------------------
     First Section Style 
 -----------------------*/
@@ -16,6 +15,7 @@ body{
     display: grid;
     grid-template-columns: 1.7fr 1.3fr;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .introductory-part{
@@ -23,7 +23,6 @@ body{
     padding-right: 120px;
     margin: auto;
 }
-
 
 .introductory-part h1{
     font-size: 45px;
@@ -59,4 +58,57 @@ body{
     background-size: 95%;
     background-repeat: no-repeat;
     width: 80%;
+}
+
+/* -------------------------------
+    Popular Collection Section 
+-------------------------------*/
+
+.products{
+
+}
+
+.product{
+    width: 329px;
+    height: 476px;
+    line-height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.329);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item{
+    padding: 10px;
+}
+
+.product-photo{
+    border-radius: 5px;
+}
+
+.product-describtion{
+    line-height: 70%;
+}
+
+.product-describtion p{
+    font-size: 15px;
+}
+
+.fas{
+    font-size: 10px;
+}
+
+.fa-star.filled{
+    color: #FB8200;
+}
+
+.fas.fa-star-half-alt{
+    color: #FB8200;
+}
+
+.rating-value{
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 10px;
 }
