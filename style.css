@@ -1,7 +1,13 @@
-/* Font  */
+/*------------
+    Fonts
+----------*/
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@400;500;600&display=swap');
 
-/* Common Styles */
+
+/*--------------------
+    Common Styles
+-------------------*/
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -198,6 +204,10 @@ hr{
     Media Queries 
 ----------------------*/
 
+/*--------------------
+     Phone Devices
+-------------------*/
+
 @media only screen and (max-width: 688px){
     .first-section-container, .brand-logo-section{
         width: 100%;
@@ -213,7 +223,9 @@ hr{
     }
 }
 
-/* tablet device */
+/*--------------------
+     Tablet Devices 
+-------------------*/
 
 @media only screen and (min-width: 689px) and (max-width: 991px){
 
