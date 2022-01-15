@@ -215,4 +215,14 @@ hr{
 
 /* tablet device */
 
+@media only screen and (min-width: 689px) and (max-width: 991px){
 
+    .first-section-container, .brand-logo-section{
+        width: 100%;
+    }
+
+    .products{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+}
