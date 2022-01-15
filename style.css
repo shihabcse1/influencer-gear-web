@@ -76,6 +76,7 @@ body{
 .brand-logos{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .brand-logo{
@@ -191,3 +192,27 @@ hr{
     font-size: 30px;
     padding: 5px;
  }
+
+
+ /* ---------------------
+    Media Queries 
+----------------------*/
+
+@media only screen and (max-width: 688px){
+    .first-section-container, .brand-logo-section{
+        width: 100%;
+    }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* tablet device */
+
+
